@@ -23,6 +23,7 @@
         app:layout_constraintGuide_percent="0.75" />
 
     <TextView
+        style="@style/Base.TextAppearance.AppCompat.Headline"
         android:id="@+id/tvChoosenTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,6 +34,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <TextView
+        style="@style/Base.TextAppearance.AppCompat.Body2"
         android:id="@+id/tvChoosenAuthor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,6 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvChoosenTitle" />
 
     <TextView
+        style="@style/Base.TextAppearance.AppCompat.Body1"
         android:id="@+id/tvChoosenGenre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,6 +56,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvChoosenAuthor" />
 
     <TextView
+        style="@style/Base.TextAppearance.AppCompat.Body1"
         android:id="@+id/tvChoosenStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,15 +68,17 @@
 
     <TextView
         android:id="@+id/tvChoosenViewed"
+        style="@style/Base.TextAppearance.AppCompat.Caption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
         android:text="@string/stringViewed"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+        app:layout_constraintTop_toBottomOf="@+id/tvChoosenTitle" />
 
     <TextView
+        style="@style/Base.TextAppearance.AppCompat.Caption"
         android:id="@+id/tvChoosenRate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

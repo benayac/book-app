@@ -2,4 +2,5 @@
     <string name="app_name">Test Developer Intern Mamikos</string>
     <string name="stringViewed">Viewed: %1$d</string>
     <string name="stringRating">Rating: %1$d</string>
+    <string name="showByGenre">Show Book By Genre</string>
 </resources>
