@@ -11,7 +11,6 @@ import com.example.model.LatestBookRespone
 import com.example.model.ResultItem
 import com.example.network.NetworkConfig
 import kotlinx.android.synthetic.main.activity_book.*
-import kotlinx.android.synthetic.main.activity_list_latest_book.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
